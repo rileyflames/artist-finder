@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    margin-bottom: 50px;
+}
+.boxes{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(50, 60, 70, 0.76);
+   
+
+}
+.box{
+    
+    width: 100px;
+    height: 100px;
+    background: peachpuff;
+    border: 2px solid teal;
+    
+}
+.box:nth-child(1){
+    background-color: rgb(255, 163, 255);
+    
+}
