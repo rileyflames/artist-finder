@@ -1,0 +1,96 @@
+/* CSS RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+}
+/* KEYFRAMES */
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    100%{
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}
+
+/*BASE STYLES*/
+body{
+    font-family: 'Poppins', sans-serif;
+    color:#292c33 ;
+    background-color: #eeeff3;
+    overflow-x: hidden;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.bg{
+    position: absolute;
+    z-index: -1;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+    animation: fade-in 0.4s;
+}
+.logo{
+    color: rgba(255, 255, 255, 0.7);
+}
+.nav{
+
+}
+.links{
+    display: flex;
+    column-gap: 45px;
+
+}
+.link-item{
+
+}
+.link{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.2s;
+
+}
+.link:hover{
+    color: rgba(255, 255, 255, 1);
+}
+.link--btn{
+    color: #fff;
+    background-color: #11a2f3;
+    transition: all 0.2s;
+    padding: 10px 18px;
+    border-radius: 3px;
+}
+.link--btn:hover{
+    background-color: #0d8fda;
+}
+
+/* MAIN */
+.main{
+    max-width:1150px;
+    background-color: white;
+    height: 1000px;
+    margin: 0 auto;
+    border-radius:5px ;
+    margin-bottom: 35px;
+    box-shadow: 0 4px 44px rgba(0, 0, 0, 0.07);
+    animation: fade-in 0.4s 0.1s backwards;
+
+}
